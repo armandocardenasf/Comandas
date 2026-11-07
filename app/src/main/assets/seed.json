@@ -1,0 +1,437 @@
+[
+  {
+    "table": "users",
+    "values": {
+      "username": "admin",
+      "password": "1234",
+      "role": "admin",
+      "status": "Activo",
+      "fecha_alta": "2026-01-01T00:00:00",
+      "ultimo_acceso": "2026-01-01T00:00:00"
+    }
+  },
+  {
+    "table": "users",
+    "values": {
+      "username": "cajero",
+      "password": "5678",
+      "role": "cajero",
+      "status": "Activo",
+      "fecha_alta": "2026-01-01T00:00:00",
+      "ultimo_acceso": "2026-01-01T00:00:00"
+    }
+  },
+  {
+    "table": "Empresa",
+    "values": {
+      "nombre": "Vinos Cruz",
+      "rfc": "VIC250710FD5",
+      "direccion": "Lerdo de Tejada 791, Villa de Juárez, Ensenada, 22830",
+      "telefono": "646 386 5597",
+      "email": "info@vinoscruz.com",
+      "tipo_cambio": 18.7
+    }
+  },
+  {
+    "table": "categories",
+    "values": {
+      "name": "Tintos"
+    }
+  },
+  {
+    "table": "categories",
+    "values": {
+      "name": "Espumosos"
+    }
+  },
+  {
+    "table": "categories",
+    "values": {
+      "name": "Blanco y Rosado"
+    }
+  },
+  {
+    "table": "categories",
+    "values": {
+      "name": "Alimentos"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 1,
+      "nombre": "JR",
+      "descripcion": "Tempranillo - Grenache",
+      "precio": 380.0,
+      "category_id": 1,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 2,
+      "nombre": "Cruz",
+      "descripcion": "Cabernet Sauvignon, Petite Syrah y Merlot",
+      "precio": 480.0,
+      "category_id": 1,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 3,
+      "nombre": "Cruz",
+      "descripcion": "Nebbiolo 100%",
+      "precio": 600.0,
+      "category_id": 1,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 4,
+      "nombre": "Gran Cruz",
+      "descripcion": "Nebbiolo 100% (Gran Reserva)",
+      "precio": 1450.0,
+      "category_id": 1,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 5,
+      "nombre": "Espumoso de Cruz (Blanco)",
+      "descripcion": "Estilo Brut, Blanco (Chardonnay)",
+      "precio": 585.0,
+      "category_id": 2,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 6,
+      "nombre": "Espumoso de Cruz (Rosado)",
+      "descripcion": "Estilo Brut, Rosado (Barbera)",
+      "precio": 585.0,
+      "category_id": 2,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 7,
+      "nombre": "Chuparossa",
+      "descripcion": "Pet Nat, Grenache",
+      "precio": 450.0,
+      "category_id": 2,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 8,
+      "nombre": "Blanco de Cruz",
+      "descripcion": "Vino blanco, Chardonnay",
+      "precio": 450.0,
+      "category_id": 3,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 9,
+      "nombre": "Ximena",
+      "descripcion": "Vino Rosado, Grenache",
+      "precio": 450.0,
+      "category_id": 3,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 10,
+      "nombre": "Ostiones",
+      "descripcion": "",
+      "precio": 480.0,
+      "category_id": 4,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 11,
+      "nombre": "Aceitunas de oliva",
+      "descripcion": "Con Romer, Queso y Aceite de Oliva",
+      "precio": 150.0,
+      "category_id": 4,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 12,
+      "nombre": "Sashimi de Pescado",
+      "descripcion": "Pesca del dia, Salsa de la Casa",
+      "precio": 380.0,
+      "category_id": 4,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 13,
+      "nombre": "Spanish Toast",
+      "descripcion": "2 Piezas de Hogaza con jamon serrano, pesto de albahaca con piñones, aceite de oliva y queso mozzarella fresco",
+      "precio": 320.0,
+      "category_id": 4,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "productos",
+    "values": {
+      "codigo": 14,
+      "nombre": "Tabla de Quesos",
+      "descripcion": "Pan, Quesos, Carnes Frias, Mermelada y Frutas de Temporada",
+      "precio": 400.0,
+      "category_id": 4,
+      "foto": "",
+      "stock": 100,
+      "status": "Activo"
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 1,
+      "nombre": "Copa",
+      "factor_descarga": 0.2,
+      "precio": 130.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 1,
+      "nombre": "Botella",
+      "factor_descarga": 1,
+      "precio": 380.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 2,
+      "nombre": "Copa",
+      "factor_descarga": 0.2,
+      "precio": 160.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 2,
+      "nombre": "Botella",
+      "factor_descarga": 1,
+      "precio": 480.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 3,
+      "nombre": "Copa",
+      "factor_descarga": 0.2,
+      "precio": 200.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 3,
+      "nombre": "Botella",
+      "factor_descarga": 1,
+      "precio": 600.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 4,
+      "nombre": "Copa",
+      "factor_descarga": 0.2,
+      "precio": 420.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 4,
+      "nombre": "Botella",
+      "factor_descarga": 1,
+      "precio": 1450.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 5,
+      "nombre": "Copa",
+      "factor_descarga": 0.2,
+      "precio": 200.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 5,
+      "nombre": "Botella",
+      "factor_descarga": 1,
+      "precio": 585.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 6,
+      "nombre": "Copa",
+      "factor_descarga": 0.2,
+      "precio": 200.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 6,
+      "nombre": "Botella",
+      "factor_descarga": 1,
+      "precio": 585.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 7,
+      "nombre": "Copa",
+      "factor_descarga": 0.2,
+      "precio": 150.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 7,
+      "nombre": "Botella",
+      "factor_descarga": 1,
+      "precio": 450.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 8,
+      "nombre": "Copa",
+      "factor_descarga": 0.2,
+      "precio": 150.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 8,
+      "nombre": "Botella",
+      "factor_descarga": 1,
+      "precio": 450.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 9,
+      "nombre": "Copa",
+      "factor_descarga": 0.2,
+      "precio": 120.0
+    }
+  },
+  {
+    "table": "producto_variantes",
+    "values": {
+      "producto_id": 9,
+      "nombre": "Botella",
+      "factor_descarga": 1,
+      "precio": 350.0
+    }
+  },
+  {
+    "table": "tipo_pago",
+    "values": {
+      "nombre": "Efectivo",
+      "factor": 1.0
+    }
+  },
+  {
+    "table": "tipo_pago",
+    "values": {
+      "nombre": "Tarjeta",
+      "factor": 1.0
+    }
+  },
+  {
+    "table": "tipo_pago",
+    "values": {
+      "nombre": "Dolares",
+      "factor": 19.5
+    }
+  },
+  {
+    "table": "tipo_pago",
+    "values": {
+      "nombre": "Gratis",
+      "factor": 0.0
+    }
+  },
+  {
+    "table": "clientes",
+    "values": {
+      "nombre": "Cliente"
+    }
+  }
+]

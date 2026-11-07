@@ -1,0 +1,4 @@
+BUILD SUCCESSFUL in 2m 8s
+:app:assembleDebug :app:testDebugUnitTest :app:lintDebug
+51 tests; 0 failures; 0 errors. Lint: 0 errors.
+package: name='mx.ensenada.comandas' versionCode='12' versionName='2.0.4' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mx.ensenada.comandas.TotalsTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-11-01T07:47:54" hostname="fa7ec62aed26" time="0.263">
+  <properties/>
+  <testcase name="quantityButtonsKeepDiscountsProportionalWithFractionalAmounts" classname="mx.ensenada.comandas.TotalsTest" time="0.004"/>
+  <testcase name="usdTipConverted" classname="mx.ensenada.comandas.TotalsTest" time="0.01"/>
+  <testcase name="mixedCurrencyAndChange" classname="mx.ensenada.comandas.TotalsTest" time="0.014"/>
+  <testcase name="hashedPassword" classname="mx.ensenada.comandas.TotalsTest" time="0.23"/>
+  <testcase name="itemAndGeneralDiscounts" classname="mx.ensenada.comandas.TotalsTest" time="0.0"/>
+  <testcase name="exactEqualSplit" classname="mx.ensenada.comandas.TotalsTest" time="0.001"/>
+  <testcase name="halfUpRounding" classname="mx.ensenada.comandas.TotalsTest" time="0.0"/>
+  <testcase name="invalidPeople" classname="mx.ensenada.comandas.TotalsTest" time="0.001"/>
+  <testcase name="legacyPassword" classname="mx.ensenada.comandas.TotalsTest" time="0.0"/>
+  <testcase name="fractionalQuantity" classname="mx.ensenada.comandas.TotalsTest" time="0.0"/>
+  <testcase name="clampFixedDiscount" classname="mx.ensenada.comandas.TotalsTest" time="0.0"/>
+  <testcase name="clampPercent" classname="mx.ensenada.comandas.TotalsTest" time="0.0"/>
+  <testcase name="pennyAcrossPeople" classname="mx.ensenada.comandas.TotalsTest" time="0.0"/>
+  <testcase name="tipsDoNotPayOrder" classname="mx.ensenada.comandas.TotalsTest" time="0.0"/>
+  <testcase name="fixedDiscount" classname="mx.ensenada.comandas.TotalsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

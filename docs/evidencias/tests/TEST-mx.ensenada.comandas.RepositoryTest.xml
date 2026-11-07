@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mx.ensenada.comandas.RepositoryTest" tests="29" skipped="0" failures="0" errors="0" timestamp="2026-11-01T07:47:16" hostname="fa7ec62aed26" time="14.589">
+  <properties/>
+  <testcase name="movingOneSharedOrderKeepsTheOtherTableOccupied" classname="mx.ensenada.comandas.RepositoryTest" time="3.769"/>
+  <testcase name="stockEntryPersistsHistory" classname="mx.ensenada.comandas.RepositoryTest" time="0.413"/>
+  <testcase name="zipTraversalRejectedWithoutReplacingData" classname="mx.ensenada.comandas.RepositoryTest" time="0.396"/>
+  <testcase name="detailedReportsReconcileDiscountAndClosure" classname="mx.ensenada.comandas.RepositoryTest" time="0.383"/>
+  <testcase name="incompatibleSchemaRejectedBeforeReplacing" classname="mx.ensenada.comandas.RepositoryTest" time="0.374"/>
+  <testcase name="closureOnlyOnce" classname="mx.ensenada.comandas.RepositoryTest" time="0.358"/>
+  <testcase name="duplicateCheckoutPrevented" classname="mx.ensenada.comandas.RepositoryTest" time="0.373"/>
+  <testcase name="invalidImportLeavesData" classname="mx.ensenada.comandas.RepositoryTest" time="0.352"/>
+  <testcase name="originalFreeMethod" classname="mx.ensenada.comandas.RepositoryTest" time="0.369"/>
+  <testcase name="preservesOriginalSchemaAndSeeds" classname="mx.ensenada.comandas.RepositoryTest" time="0.35"/>
+  <testcase name="cashierCannotEditCatalogs" classname="mx.ensenada.comandas.RepositoryTest" time="0.466"/>
+  <testcase name="quantityAssignmentsPersisted" classname="mx.ensenada.comandas.RepositoryTest" time="0.352"/>
+  <testcase name="migrationFromLegacy10PreservesRows" classname="mx.ensenada.comandas.RepositoryTest" time="0.642"/>
+  <testcase name="insufficientPaymentRollsBack" classname="mx.ensenada.comandas.RepositoryTest" time="0.353"/>
+  <testcase name="snapshotRoundTrip" classname="mx.ensenada.comandas.RepositoryTest" time="0.379"/>
+  <testcase name="inventorySummaryAndMovementRangeUseOnlySelectedProduct" classname="mx.ensenada.comandas.RepositoryTest" time="0.366"/>
+  <testcase name="cashierQuickClientAndPhotoActionsStayScoped" classname="mx.ensenada.comandas.RepositoryTest" time="0.453"/>
+  <testcase name="fullCheckout" classname="mx.ensenada.comandas.RepositoryTest" time="0.349"/>
+  <testcase name="saveEditOrder" classname="mx.ensenada.comandas.RepositoryTest" time="0.341"/>
+  <testcase name="zipBackupRestoresPhotosAndSales" classname="mx.ensenada.comandas.RepositoryTest" time="0.403"/>
+  <testcase name="duplicateAssignmentsRejected" classname="mx.ensenada.comandas.RepositoryTest" time="0.353"/>
+  <testcase name="sharedTableRemainsOccupiedUntilLastOrderCloses" classname="mx.ensenada.comandas.RepositoryTest" time="0.365"/>
+  <testcase name="reportsGroupSalesAndShowOrderPayments" classname="mx.ensenada.comandas.RepositoryTest" time="0.39"/>
+  <testcase name="productReportDistributesDiscountWithoutLosingCents" classname="mx.ensenada.comandas.RepositoryTest" time="0.378"/>
+  <testcase name="failureAfterSaleInsertRollsBackEverything" classname="mx.ensenada.comandas.RepositoryTest" time="0.375"/>
+  <testcase name="oversizedStockWithdrawalLeavesNoFalseMovement" classname="mx.ensenada.comandas.RepositoryTest" time="0.36"/>
+  <testcase name="changedExchangeRateRejectsStalePayment" classname="mx.ensenada.comandas.RepositoryTest" time="0.364"/>
+  <testcase name="companyLogoSurvivesBackupAndRestore" classname="mx.ensenada.comandas.RepositoryTest" time="0.379"/>
+  <testcase name="allOrderFiltersIncludePaidOrdersWithoutReopeningThem" classname="mx.ensenada.comandas.RepositoryTest" time="0.377"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mx.ensenada.comandas.PortraitInterfaceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-31T22:32:04" hostname="1e7a040d7e83" time="20.476">
+  <properties/>
+  <testcase name="originalMenuDraftEditOrderAndPaymentFlow" classname="mx.ensenada.comandas.PortraitInterfaceTest" time="19.176"/>
+  <testcase name="loginAndNavigate" classname="mx.ensenada.comandas.PortraitInterfaceTest" time="1.3"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

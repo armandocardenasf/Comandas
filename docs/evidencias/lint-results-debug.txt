@@ -1,0 +1,123 @@
+/workspace/scratch/4f44f47ea6f0/Comandas/app/src/main/java/mx/ensenada/comandas/ui/InventoryScreens.kt:225: Warning: Using Configuration.screenHeightDp instead of LocalWindowInfo.current.containerSize [ConfigurationScreenWidthHeight from androidx.compose.ui]
+    val height = (LocalConfiguration.current.screenHeightDp - 32).coerceAtLeast(200).dp
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/4f44f47ea6f0/Comandas/app/src/main/java/mx/ensenada/comandas/ui/PosApp.kt:268: Warning: Using Configuration.screenHeightDp instead of LocalWindowInfo.current.containerSize [ConfigurationScreenWidthHeight from androidx.compose.ui]
+    val height = (LocalConfiguration.current.screenHeightDp - 200).coerceIn(96, 430).dp
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ConfigurationScreenWidthHeight":
+   Configuration.screenWidthDp and Configuration.screenHeightDp have different
+   insets behaviour depending on target SDK version, and are rounded to the
+   nearest Dp. This means that using these values in composition to size a
+   layout can result in issues, as these values do not accurately represent
+   the actual available window size. Instead it is recommended to use
+   WindowInfo.containerSize which accurately represents the window size.
+
+   Vendor: Jetpack Compose
+   Identifier: androidx.compose.ui
+   Feedback: https://issuetracker.google.com/issues/new?component=612128
+
+/workspace/scratch/4f44f47ea6f0/Comandas/app/src/main/res/mipmap-anydpi-v26: Warning: This folder configuration (v26) is unnecessary; minSdkVersion is 31. Merge all the resources in this folder into mipmap-anydpi. [ObsoleteSdkInt]
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+/workspace/scratch/4f44f47ea6f0/Comandas/app/src/main/res/drawable-nodpi/cruz_vinos.png: Warning: The resource R.drawable.cruz_vinos appears to be unused [UnusedResources]
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/workspace/scratch/4f44f47ea6f0/Comandas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:1: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"><background android:drawable="@color/icon_bg"/><foreground><inset android:drawable="@drawable/logo_cruz" android:inset="20%"/></foreground></adaptive-icon>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+/workspace/scratch/4f44f47ea6f0/Comandas/app/src/main/java/mx/ensenada/comandas/io/Printer.kt:87: Warning: Use the KTX extension function Bitmap.scale instead? [UseKtx]
+                        android.graphics.Bitmap.createScaledBitmap(image, width, height, true)
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/4f44f47ea6f0/Comandas/app/src/main/java/mx/ensenada/comandas/io/Printer.kt:106: Warning: Use the KTX extension function Bitmap.get instead? [UseKtx]
+                            val pixel = bitmap.getPixel(x, y + top)
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseKtx":
+   The Android KTX libraries decorates the Android platform SDK as well as
+   various libraries with more convenient extension functions available from
+   Kotlin, allowing you to use default parameters, named parameters, and
+   more.
+
+   Available options:
+
+   **remove-defaults** (default is true):
+   Whether to skip arguments that match the defaults provided by the extension.
+
+   Extensions often provide default values for some of the parameters. For example:
+   ```kotlin
+   fun Path.readLines(charset: Charset = Charsets.UTF_8): List<String> { return Files.readAllLines(this, charset) }
+   ```
+   This lint check will by default automatically omit parameters that match the default, so if your code was calling ```kotlin
+   Files.readAllLines(file, Charset.UTF_8)
+   ```
+   lint would replace this with
+   ```kotlin
+   file.readLines()
+   ```
+   rather than
+   ```kotlin
+   file.readLines(Charset.UTF_8
+   ```
+   You can turn this behavior off using this option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="remove-defaults" value="true" />
+       </issue>
+   </lint>
+   ```
+
+   **require-present** (default is true):
+   Whether to only offer extensions already available.
+
+   This option lets you only have lint suggest extension replacements if those extensions are already available on the class path (in other words, you're already depending on the library containing the extension method.)
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="require-present" value="true" />
+       </issue>
+   </lint>
+   ```
+
+0 errors, 7 warnings

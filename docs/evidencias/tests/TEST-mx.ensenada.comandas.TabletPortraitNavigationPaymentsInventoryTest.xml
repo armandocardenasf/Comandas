@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mx.ensenada.comandas.TabletPortraitNavigationPaymentsInventoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T07:50:36" hostname="fa7ec62aed26" time="8.577">
+  <properties/>
+  <testcase name="sharedTablesQuickLinksUsdPaymentAndInventoryFlow" classname="mx.ensenada.comandas.TabletPortraitNavigationPaymentsInventoryTest" time="8.577"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,5 @@
+Compilación y suite completa: BUILD SUCCESSFUL in 2m 53s; 60 pruebas.
+Verificación adicional de inventario/UI: BUILD SUCCESSFUL in 1m; cuatro recorridos.
+Lint: cero errores.
+package: name='mx.ensenada.comandas' versionCode='13' versionName='2.0.5' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+Certificado SHA-256: 1d626628fb1205308060dd3fae3f43779872634b3649fb6627d3461c9c82a2ee

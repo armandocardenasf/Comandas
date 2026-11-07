@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mx.ensenada.comandas.TabletPortraitInterfaceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T07:47:31" hostname="fa7ec62aed26" time="11.886">
+  <properties/>
+  <testcase name="originalMenuDraftEditOrderAndPaymentFlow" classname="mx.ensenada.comandas.TabletPortraitInterfaceTest" time="9.438"/>
+  <testcase name="loginAndNavigate" classname="mx.ensenada.comandas.TabletPortraitInterfaceTest" time="2.448"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

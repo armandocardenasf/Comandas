@@ -1,0 +1,165 @@
+{
+  "users": [
+    "id",
+    "username",
+    "password",
+    "role",
+    "permissions",
+    "status",
+    "fecha_alta",
+    "ultimo_acceso"
+  ],
+  "Folios": [
+    "id",
+    "folio_comanda",
+    "folio_cierre",
+    "folio_venta"
+  ],
+  "Empresa": [
+    "id",
+    "nombre",
+    "rfc",
+    "direccion",
+    "telefono",
+    "email",
+    "tipo_cambio"
+  ],
+  "productos": [
+    "id",
+    "codigo",
+    "nombre",
+    "descripcion",
+    "precio",
+    "category_id",
+    "foto",
+    "stock",
+    "status",
+    "fecha_alta"
+  ],
+  "producto_variantes": [
+    "id",
+    "producto_id",
+    "nombre",
+    "factor_descarga",
+    "precio"
+  ],
+  "empleados": [
+    "id",
+    "nombre",
+    "categoria",
+    "status",
+    "fecha_alta"
+  ],
+  "clientes": [
+    "id",
+    "nombre",
+    "nivel",
+    "telefono",
+    "email"
+  ],
+  "categories": [
+    "id",
+    "name"
+  ],
+  "tipo_pago": [
+    "id",
+    "nombre",
+    "factor"
+  ],
+  "mesas": [
+    "id",
+    "numero",
+    "nombre",
+    "disponibilidad"
+  ],
+  "menu": [
+    "id",
+    "product_id",
+    "measurement_type"
+  ],
+  "orders": [
+    "id",
+    "folio_comanda",
+    "fecha",
+    "hora",
+    "mesa",
+    "personas",
+    "id_cliente",
+    "status",
+    "monto_por_pagar",
+    "monto_pagado",
+    "discount_type",
+    "general_discount",
+    "observaciones"
+  ],
+  "order_items": [
+    "id",
+    "order_id",
+    "product_id",
+    "product_code",
+    "product_name",
+    "product_descripcion",
+    "quantity",
+    "price",
+    "total",
+    "discount_percent",
+    "discount_amount",
+    "product_variant_id"
+  ],
+  "sales": [
+    "id",
+    "folio_venta",
+    "folio_comanda",
+    "fecha",
+    "hora",
+    "mesa",
+    "personas",
+    "id_cliente",
+    "status",
+    "monto_por_pagar",
+    "monto_pagado",
+    "propina",
+    "discount_type",
+    "general_discount",
+    "observaciones"
+  ],
+  "sale_payments": [
+    "id",
+    "sale_id",
+    "tipo_pago_id",
+    "fecha",
+    "hora",
+    "monto_pagado",
+    "propina",
+    "moneda",
+    "persona",
+    "total_pago"
+  ],
+  "sale_items": [
+    "id",
+    "sale_id",
+    "product_id",
+    "product_variant_id",
+    "product_code",
+    "product_name",
+    "product_descripcion",
+    "quantity",
+    "price",
+    "total",
+    "discount_percent",
+    "discount_amount"
+  ],
+  "sale_item_assignment": [
+    "id",
+    "sale_payment_id",
+    "order_item_id"
+  ],
+  "cierres": [
+    "id",
+    "tipo",
+    "fecha",
+    "hora",
+    "monto_total",
+    "observaciones"
+  ]
+}

@@ -1,0 +1,46 @@
+
+# Gradle, Kotlin y salidas generadas de Android
+.gradle/
+.kotlin/
+build/
+**/build/
+.cxx/
+.externalNativeBuild/
+captures/
+output-metadata.json
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+
+# Android Studio y archivos del equipo
+.idea/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.swp
+*~
+
+# Credenciales y firma locales
+.env
+.env.*
+!.env.example
+keystore.properties
+signing.properties
+secrets.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# El Wrapper se versiona, incluido su JAR
+!/gradlew
+!/gradlew.bat
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradle/wrapper/gradle-wrapper.properties
